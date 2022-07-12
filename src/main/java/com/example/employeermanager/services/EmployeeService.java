@@ -2,7 +2,6 @@ package com.example.employeermanager.services;
 
 import com.example.employeermanager.exceptions.UserNotFoundException;
 import com.example.employeermanager.models.Employee;
-import com.example.employeermanager.models.JobTitle;
 import com.example.employeermanager.repo.EmployeeRepo;
 import com.example.employeermanager.repo.JobTitleRepo;
 import lombok.AllArgsConstructor;
@@ -10,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
 
 @Service
